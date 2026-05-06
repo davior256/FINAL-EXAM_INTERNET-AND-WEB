@@ -11,21 +11,129 @@ body {
 }
 
 
+
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 10%;
-    background: #1a1a1a;
-    color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  padding: 15px 40px;
+  position: fixed;
+  top: 0;
 }
 
 
-.login-box .link a {
-    text-decoration: none;
-    color: #007bff;
+.logo {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
 }
 
-.login-box .link a:hover {
-    text-decoration: underline;
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+
+.nav-links a:hover {
+  color: #ffcc00;
+}
+
+
+.hero {
+  background: url('wallpaper-123181.jpg') no-repeat center center/cover;
+  height: 90vh;
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+
+.btn {
+  background-color: #ffcc00;
+  color: black;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #e6b800;
+}
+
+.services {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.services h2 {
+  margin-bottom: 30px;
+}
+
+.service-box {
+  display: inline-block;
+  width: 250px;
+  background: #007bff;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.how-it-works {
+  background: #007bff;
+  color: #0a0c0f;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.how-it-works ol {
+  margin: 0px;
+  padding: 0px;
+}
+
+.how-it-works li {
+  margin: 10px ;
+}
+
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  background: #ffcc00;
+  font-weight: bold;
+}
+
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: black;
+  color: white;
 }
