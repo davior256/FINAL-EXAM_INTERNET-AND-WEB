@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ride Booking</title>
+
+    <link rel="stylesheet" href="order.css">
+</head>
+
+<body>
+
+<iframe
+src="https://maps.google.com/maps?q=kampala&t=&z=13&ie=UTF8&iwloc=&output=embed">
+</iframe>
+
+<div class="booking-box">
+
+    <h2>Book Your Ride</h2>
+
+    <input type="text" id="pickup" placeholder="Enter Pickup Location">
+
+    <input type="text" id="destination" placeholder="Enter Destination">
+
+    <select id="carType">
+        <option value="3000">Bike - UGX 3,000</option>
+        <option value="8000">Standard Car - UGX 8,000</option>
+        <option value="15000">VIP Car - UGX 15,000</option>
+    </select>
+
+    <div class="fare">
+        Estimated Fare: UGX <span id="fare">3000</span>
+    </div>
+
+    <button onclick="orderRide()">Order Ride</button>
+
+</div>
+<script src="app.js"></script>
+</body>
+</html>
